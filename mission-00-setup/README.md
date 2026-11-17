@@ -31,6 +31,9 @@ The aim of this mission was to create a public GitHub repository with the correc
 | `git commit -m` | Saved the changes with a commit message. |
 | `git remote add origin` | Connected my local repository to GitHub. |
 | `git push -u origin main` | Uploaded the files to GitHub. |
+| `git branch -M main` | Renamed my local branch from `master` to `main`. |
+| `.gitignore` | Told Git to ignore the hidden macOS `.DS_Store` file. |
+| `git rm --cached` | Stopped Git tracking `.DS_Store` without deleting it from my computer. |
 
 **Tools used:** Terminal, text editor and GitHub website.
 
@@ -40,7 +43,7 @@ The aim of this mission was to create a public GitHub repository with the correc
 
 ## 4. My Understanding
 
-Through this mission, I understood how Git and GitHub work together. Git keeps track of changes made to files and maintains a history of previous versions. This makes it easier to check what has changed and recover older versions if needed.
+Through this mission, I understood how Git and GitHub work together. A repository is a project folder that Git keeps track of. It stores my files along with the full history of changes made to them. Git keeps track of changes made to files and maintains a history of previous versions. This makes it easier to check what has changed and recover older versions if needed.
 
 GitHub allows me to store my repository online and access or share it whenever required.
 
@@ -58,10 +61,13 @@ error: failed to push some refs to 'https://github.com/akash-iyer-27/digital-det
 
 At first, I wasn't sure why the push was failing. The error indicated that Git couldn’t find a local branch called main.
 
+My repository also contained a `.DS_Store` file that I hadn't created. It is a hidden file macOS makes to store folder display settings.
+
 ## 6. How I Resolved Them
 
 I ran `git branch` and `git log --oneline` and found that my commits were on a branch called `master`, not `main`. The push failed because I was pushing a `main` branch that didn't exist locally. I renamed the branch with `git branch -M main` and ran `git push -u origin main` again, and the push worked.
 
+I removed it from Git tracking with `git rm --cached` and added a `.gitignore` file so it stays out of future commits.
 
 ## 7. Evidence / Files
 
@@ -71,6 +77,9 @@ I ran `git branch` and `git log --oneline` and found that my commits were on a b
 
 ## 8. Commit Details
 
-- **Commit message:** `Set up Digital Detective mission structure`
-- **Status:** Successfully pushed to GitHub.
-- **Verification:** Checked the repository on GitHub to confirm that the folders and files were uploaded correctly.
+- **- **Commit messages:**
+  - `Set up Digital Detective mission structure` (initial setup)
+  - `Fix Mission 0 README details` (README corrections)
+  - `Remove .DS_Store and add .gitignore` (cleanup, if done)
+- **Status:** All commits pushed to GitHub.
+- **Verification:** Checked the repository on GitHub to confirm the folders, files and commits are visible.
