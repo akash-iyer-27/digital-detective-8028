@@ -56,25 +56,11 @@ error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/akash-iyer-27/digital-detective-8028.git'
 ```
 
-At first, I wasn't sure why the push was failing. The error indicated that Git could not find a local `main` branch with a commit to push.
+At first, I wasn't sure why the push was failing. The error indicated that Git couldn’t find a local branch called main.
 
 ## 6. How I Resolved Them
 
-I checked my Git repository setup and realised that the issue was related to the local branch or the absence of an initial commit.
-
-I made sure that all my project files were added using `git add .` and created the initial commit using:
-
-```bash
-git commit -m "Set up Digital Detective mission structure"
-```
-
-After making sure the commit was created on the `main` branch, I tried pushing the files again using:
-
-```bash
-git push -u origin main
-```
-
-This time, the push was successful, and I could see all my project folders and files in my GitHub repository.
+I ran `git branch` and `git log --oneline` and found that my commits were on a branch called `master`, not `main`. The push failed because I was pushing a `main` branch that didn't exist locally. I renamed the branch with `git branch -M main` and ran `git push -u origin main` again, and the push worked.
 
 
 ## 7. Evidence / Files
