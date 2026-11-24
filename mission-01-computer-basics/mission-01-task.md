@@ -56,19 +56,11 @@ The activity moves from input to output and storage in order. My keystrokes ente
 | Traffic signal | Controls the flow of vehicles at road intersections | Vehicle sensor under the road | Red, yellow and green light signals |
 | Smart TV | Streams online shows, movies and broadcasts television channels | Remote control button press or voice command | Video on the screen and audio from speakers |
 
-## 5. Difficulties Faced
-
-No major difficulties
-
-## 6. How I Resolved Them
-
-Not applicable
-
-## 7. Evidence / Files
+## 5. Evidence / Files
 
 - `README.md` in this folder, containing the IPOS table, the hardware and software table and the computer systems table.
 
-## 8. Commit Details
+## 6. Commit Details
 
 - **Commit message:** `Complete computer basics and IPOS mission`
 - **Status:** Pushed to GitHub.
