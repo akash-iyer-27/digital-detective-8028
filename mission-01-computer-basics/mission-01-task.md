@@ -1,67 +1,34 @@
-# Mission 1 — Know Your Computer
+### Task 1.1 — Trace one activity using IPOS
 
-## 1. Task / Objective
+**Chosen activity:** Taking a photo with my laptop camera and sharing it with a friend.
 
-The aim of this mission was to explain how a computer receives input, processes information, produces output and stores results (IPOS), to identify hardware and software that I use, and to find computer-based systems in everyday life.
-
-## 2. Work Completed
-
-- Traced one activity (typing and saving a school essay) through the four IPOS stages.
-- Listed hardware and software items and classified each one.
-- Identified three computer-based systems around me other than a laptop or phone.
-- Documented everything in this README.
-
-## 3. Commands / Tools Used
-
-No Terminal commands were needed for the tasks in this mission. I used:
-
-| Tool | Purpose |
-|---|---|
-| Text editor | Wrote and saved this README. |
-| `git add`, `git commit`, `git push` | Saved the mission work and published it to GitHub. |
-
-## 4. My Understanding
-
-### Task 1.1 — IPOS
-
-**Chosen activity:** Typing and saving a school essay.
-
-| Stage | What happens in your example? | Possible hardware |
+| Stage | What happens in my example? | Hardware / component |
 | --- | --- | --- |
-| Input | You type the words of your essay and click the save icon | Keyboard, mouse |
-| Processing | The computer converts keystrokes into characters, formats the text and prepares the file for saving | CPU, processor, memory |
-| Output | The typed words and formatting appear visually on the display as you write | Monitor, screen |
-| Storage | The completed essay document is permanently saved as a file on the drive | SSD, hard disk, cloud storage |
+| Input | I click the capture button and the camera collects light from the scene as image data. | Webcam, trackpad |
+| Processing | The CPU and memory take the raw image data, compress it into a JPEG file and prepare it for display and sending. | CPU, RAM |
+| Output | A preview of the photo appears on the screen so I can check it. | Display |
+| Storage | The photo is saved as a file in my Photos or Pictures folder. | SSD |
+| Extra step: Sharing | I attach the photo in a chat app and the computer sends it over Wi-Fi to the app's servers, which deliver it to my friend. | Wi-Fi adapter, router |
 
-The activity moves from input to output and storage in order. My keystrokes enter the computer (input), the CPU and memory turn them into text (processing), the display shows the text as I type (output), and saving writes the file to the drive (storage).
+The activity starts with my click and the camera data (input). The CPU and memory turn the raw data into a photo file (processing). The screen shows me the result (output), and the SSD keeps a copy so it is still there after the laptop is switched off (storage). Sharing is an extra output step, where the file leaves my computer through the network.
 
-### Task 1.2 — Hardware and software
+### Task 1.2 — Identify hardware and software
 
-| Item/software name | Hardware or Software? | Software type | Purpose |
+| Item / software name | Hardware or software? | Software type | Purpose |
 | --- | --- | --- | --- |
-| Keyboard | Hardware | Not applicable | Used to enter text and commands |
-| Trackpad | Hardware | Not applicable | Used to move the pointer and click |
-| Webcam | Hardware | Not applicable | Captures live video and photos |
-| SSD (solid state drive) | Hardware | Not applicable | Stores files, apps and the operating system permanently |
-| Windows 11 | Software | Operating system software | Manages hardware resources and runs applications |
-| Google Chrome | Software | Application software | Used to browse websites and search internet |
-| Microsoft Word | Software | Application software | Used to create, edit and format text documents |
-| Windows Defender | Software | Utility software | Scans for viruses and protects computer from malware |
+| Keyboard | Hardware | Not applicable | Used to type text and commands |
+| Trackpad | Hardware | Not applicable | Moves the pointer and registers clicks |
+| Display | Hardware | Not applicable | Shows output such as text and images |
+| Webcam | Hardware | Not applicable | Captures video and photos |
+| macOS | Software | Operating system software | Manages the hardware and runs other programs |
+| Google Chrome | Software | Application software | Used to browse websites |
+| VS Code | Software | Application software | Used to write and edit code and text files |
+| Activity Monitor | Software | Utility software | Shows running programs and how much CPU and memory they use |
 
-### Task 1.3 — Computer systems around me
+### Task 1.3 — Computer systems around you
 
 | System | Main purpose | One input | One output |
 | --- | --- | --- | --- |
-| ATM (automated teller machine) | Allows bank customers to withdraw cash and check account balances | Pin typed on keypad | Cash or printed receipt |
-| Traffic signal | Controls the flow of vehicles at road intersections | Vehicle sensor under the road | Red, yellow and green light signals |
-| Smart TV | Streams online shows, movies and broadcasts television channels | Remote control button press or voice command | Video on the screen and audio from speakers |
-
-## 5. Evidence / Files
-
-- `README.md` in this folder, containing the IPOS table, the hardware and software table and the computer systems table.
-
-## 6. Commit Details
-
-- **Commit message:** `Complete computer basics and IPOS mission`
-- **Status:** Pushed to GitHub.
-- **Verification:** Checked the repository on GitHub to confirm the updated README and commit are visible.
+| Metro ticket machine | Sells tickets or recharges travel cards | Destination chosen on the touchscreen | Printed ticket or token |
+| Supermarket billing counter | Calculates the bill for the items bought | Barcode scanned on an item | Printed bill |
+| Gaming console | Runs video games | Controller button press | Game video on the TV and sound from the speakers |
