@@ -25,5 +25,8 @@ python3 number_converter.py
 ```
 Enter a decimal number when asked and the program prints its binary and hexadecimal forms.
 
-## What I learned
-_To be completed in Mission 8._
+## My Learning
+
+- I learned how Git tracks changes and how a repository keeps the history of my files.
+- I learned basic Terminal commands for moving around, creating files and checking permissions.
+- I learned how numbers are converted between decimal, binary and hexadecimal, and how text is stored as numbers.
