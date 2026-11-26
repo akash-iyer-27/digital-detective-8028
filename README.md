@@ -1,8 +1,9 @@
 # The Digital Detective
 
-My Diwali independent learning assignment. In it I explore how a computer works, practise the Terminal, learn how an operating system manages files and programs, work with number systems and text encoding, and use Git and GitHub to publish my work.
+My Diwali independent learning assignment. In it I explore how a computer works, practise the Terminal, learn how an operating system manages files and programs, work with number systems and text encoding, and use Git and GitHub to publish my work. Each mission has its own folder with notes, tables and evidence.
 
 ## Mission index
+
 | Mission | Topic |
 |---|---|
 | [Mission 0](mission-00-setup/README.md) | Repository and workspace setup |
@@ -15,15 +16,32 @@ My Diwali independent learning assignment. In it I explore how a computer works,
 | [Mission 7](mission-07-networking/README.md) | Computer networks |
 | [Mission 8](mission-08-final-report/README.md) | Final review and submission |
 
+## Topics explored
+
+- Input, processing, output and storage (IPOS), hardware and software
+- Terminal commands, flags, pipes and package managers
+- Operating system responsibilities, processes, paths and file permissions
+- How compilers and interpreters run programs
+- Binary, decimal and hexadecimal numbers, and text encoding (ASCII and UTF-8)
+- Git workflow, branches and Pull Requests
+- Networks, DNS and what happens when a website opens
+
 ## How this repository was built
-Each mission was completed, documented and committed separately, so the commit history shows my progress mission by mission.
+
+Each mission was documented and committed separately, so the commit history shows my progress mission by mission. Every mission folder has its own `README.md` with the same nine-part structure: title, objective, work completed, commands used, understanding, difficulties, how I resolved them, evidence and commit details.
 
 ## Running the number converter
+
+From the main project folder:
+
 ```
 cd mission-05-numbers-data
 python3 number_converter.py
 ```
-Enter a decimal number when asked and the program prints its binary and hexadecimal forms.
 
-## What I learned
-_To be completed in Mission 8._
+Enter a decimal number when asked, and the program prints its binary and hexadecimal forms. For example, entering `25` prints `11001` and `19`.
+
+## My Learning
+- I learned how Git tracks changes and how a repository keeps the history of my files.
+- I learned basic Terminal commands for moving around, creating files and checking permissions.
+- I learned how numbers are converted between decimal, binary and hexadecimal, and how text is stored as numbers.
